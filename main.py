@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-from app.endpoints import callback
+from app.endpoints.api import register
 
 app = FastAPI()
 
-app.include_router(callback.router)
+app.include_router(register.router)

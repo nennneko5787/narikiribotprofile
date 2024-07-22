@@ -1,4 +1,4 @@
 fastapi
 asyncpg
 aiohttp
-tweepy
+bcrypt
